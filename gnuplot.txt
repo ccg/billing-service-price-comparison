@@ -1,0 +1,5 @@
+gnuplot> plot 'prices.txt' using 1:2 title 'chargify', 'prices.txt' using 1:3 title 'spreedly', 'prices.txt' using 1:4 title 'cheddargetter'
+gnuplot> xlabel '#customer'
+gnuplot> set xlabel 'num customers'
+gnuplot> set ylabel 'monthly prices ($)'
+gnuplot> set key left
