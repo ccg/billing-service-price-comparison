@@ -1,6 +1,14 @@
 #!/usr/bin/env python
 
 def spreedly(transactions):
+    """
+    http://spreedly.com/info/pricing/
+
+    >>> spreedly(0)
+    19.0
+    >>> spreedly(100)
+    39.0
+    """
     return 19 + .20*transactions
 
 def cheddargetter(customers):
